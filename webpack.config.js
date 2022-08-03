@@ -1,7 +1,7 @@
 const path = require("path");
-module.exports = {
-  mode: "development",
-  entry: "./index.js",
+module.exports={
+  mode: "development", 
+  entry: "./index.js", 
   output: {
     path: path.join(__dirname, "public"),
     filename: "main.js"
@@ -11,13 +11,13 @@ module.exports = {
     port: "9500",
     static: ["./public"],
     open: true,
-    hot: true,
+    hot: true ,
     liveReload: true
   },
   resolve: {
-    extensions: [".js", ".jsx", "json"],
+    extensions: ['.js','.jsx','.json'] 
   },
-  module: {
+  module:{
     rules: [
       {
         test: /\.(js|jsx)$/,
