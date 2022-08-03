@@ -4,7 +4,9 @@
   "description": "ReactJs Template",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "webpack-dev-server",
+    "build": "webpack ."
   },
   "author": "",
   "license": "ISC",
