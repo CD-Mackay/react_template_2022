@@ -4,5 +4,4 @@ Installed dependencies as outlined in guide, created initial components
 
 ## [1.0.1] 2022-08-04
  Tasklist: 
-  - Cypress
   - ESLint  
