@@ -16,5 +16,6 @@ module.exports = {
     semi: ['error', 'never'],
     'react/function-component-definition': [2, { namedComponents: 'arrow-function' }],
     'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
+    indent: ['error', 2],
   },
 }

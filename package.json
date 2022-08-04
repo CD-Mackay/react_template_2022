@@ -6,7 +6,9 @@
   "scripts": {
     "test": "test",
     "start": "webpack-dev-server",
-    "build": "webpack ."
+    "build": "webpack .",
+    "lint": "npx eslint ./",
+    "lint:fix": "npx eslint ./ --fix"
   },
   "author": "",
   "license": "ISC",
