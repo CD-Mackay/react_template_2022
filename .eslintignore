@@ -1,0 +1,5 @@
+# node_modules excluded by default
+
+# Ignore public folder
+**/public
+
