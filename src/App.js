@@ -2,7 +2,7 @@
 import React from 'react'
 
 // Component Imports
-import Header from './components/modules/Header/Header'
+import Header from 'modules/Header/Header'
 
 // CSS Imports
 import StyledApp from './StyledApp'
