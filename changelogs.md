@@ -10,3 +10,4 @@ Installed dependencies as outlined in guide, created initial components
  Tasklist:
   - Cypress (Left on branch CNF/Cypress due to component testing issues)
   - <Header /> Component
+  - Configure aliases for Webpack
