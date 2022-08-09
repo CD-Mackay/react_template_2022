@@ -16,6 +16,15 @@ module.exports = {
     liveReload: true,
   },
   resolve: {
+    alias: {
+      path: require.resolve('path-browserify'),
+      public: path.resolve(__dirname, './public'),
+      src: path.resolve(__dirname, './src'),
+      elements: path.resolve(__dirname, './src/components/elements'),
+      modules: path.resolve(__dirname, './src/components/modules'),
+      pages: path.resolve(__dirname, './src/components/pages'),
+      templates: path.resolve(__dirname, './src/components/templates'),
+    },
     extensions: ['.js', '.jsx', '.json'],
   },
   module: {
